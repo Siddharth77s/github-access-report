@@ -20,7 +20,41 @@ The service authenticates with GitHub, retrieves repositories from the organizat
 
 ## Project Structure
 
-src/main/java/com/example/githubaccessreport
+├── .mvn
+│   └── wrapper
+│       └── maven-wrapper.properties
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── githubaccessreport
+│   │   │               ├── config
+│   │   │               ├── controller
+│   │   │               │   └── AccessReportController.java
+│   │   │               ├── model
+│   │   │               │   ├── AccessReport.java
+│   │   │               │   ├── Collaborator.java
+│   │   │               │   ├── Repository.java
+│   │   │               │   └── UserAccess.java
+│   │   │               ├── service
+│   │   │               │   └── GithubService.java
+│   │   │               └── GithubAccessReportApplication.java
+│   │   └── resources
+│   │       ├── static
+│   │       ├── templates
+│   │       └── application.properties
+│   └── test
+│       └── java
+│           └── com
+│               └── example
+│                   └── githubaccessreport
+│                       └── GithubAccessReportApplicationTests.java
+├── .gitattributes
+├── .gitignore
+├── mvnw
+├── mvnw.cmd
+└── pom.xml
 
 * controller – REST API controller
 * service – Business logic and GitHub API calls

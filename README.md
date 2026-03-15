@@ -49,7 +49,7 @@ The token is passed in the HTTP Authorization header when calling the GitHub API
 
 1. Clone the repository
 
-git clone https://github.com/your-username/github-access-report.git
+git clone (https://github.com/Siddharth77s/github-access-report)
 
 2. Navigate to the project directory
 

@@ -19,7 +19,7 @@ The service authenticates with GitHub, retrieves repositories from the organizat
 ---
 
 ## Project Structure
-
+```
 ├── .mvn
 │   └── wrapper
 │       └── maven-wrapper.properties
@@ -55,6 +55,7 @@ The service authenticates with GitHub, retrieves repositories from the organizat
 ├── mvnw
 ├── mvnw.cmd
 └── pom.xml
+```
 
 * controller – REST API controller
 * service – Business logic and GitHub API calls
